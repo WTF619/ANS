@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff3e0;
+  color: #4e342e;
+}
+
+header {
+  background-color: #ff7043;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ffe0b2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #ffe0b2;
+  padding: 40px;
+  text-align: center;
+}
+
+.products {
+  padding: 40px 20px;
+  background-color: #fff8e1;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #f0b27a;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ef6c00;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffccbc;
+  font-weight: bold;
+}
+
+.input-box {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.input-box input {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+.welcome-box {
+  background-color: #ffe082;
+  color: #5d4037;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2em;
+}
